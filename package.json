@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test",
+    "allure:report": "allure generate Volume/allure-results --clean",
+    "allure:clear": "rm -r Volume/allure-results/"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +15,8 @@
     "@playwright/test": "^1.43.1",
     "@types/node": "^20.12.7",
     "allure-playwright": "^2.15.1"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.29.0"
   }
 }

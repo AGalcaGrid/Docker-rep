@@ -1,0 +1,7 @@
+# report files
+Volume
+test-results
+
+# mac os files
+DS_Store
+node_modules
